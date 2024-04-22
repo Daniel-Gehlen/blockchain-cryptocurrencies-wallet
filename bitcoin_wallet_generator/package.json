@@ -1,0 +1,18 @@
+{
+  "name": "bitcoin_wallet_generator",
+  "version": "1.0.0",
+  "description": "Generate Bitcoin wallet addresses and import them into Electrum.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/create_wallet.js",
+    "import": "node src/electrum_import.js"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "bip32": "^2.0.3",
+    "bip39": "^3.0.2",
+    "bitcoinjs-lib": "^5.1.4",
+    "electrum": "^1.1.0"
+  }
+}
